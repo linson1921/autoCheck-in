@@ -12,9 +12,9 @@ from pydantic import BaseModel
 
 class Push(BaseModel):
     # 是否开启推送 默认关闭
-    PUSH_STATUS: bool = False
+    PUSH_STATUS: bool = true
     # PUSHPLUS的TOKEN
-    PUSHPLUS_TOKEN: str = None
+    PUSHPLUS_TOKEN: str = c55e0d09ea1a4b21a8217e32d5fe2853
 
 
 class IqyLoginCookie(BaseModel):
